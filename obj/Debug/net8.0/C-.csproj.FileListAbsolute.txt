@@ -1,0 +1,15 @@
+E:\Desenvolvimento\dotnet\C-\bin\Debug\net8.0\C-.exe
+E:\Desenvolvimento\dotnet\C-\bin\Debug\net8.0\C-.deps.json
+E:\Desenvolvimento\dotnet\C-\bin\Debug\net8.0\C-.runtimeconfig.json
+E:\Desenvolvimento\dotnet\C-\bin\Debug\net8.0\C-.dll
+E:\Desenvolvimento\dotnet\C-\bin\Debug\net8.0\C-.pdb
+E:\Desenvolvimento\dotnet\C-\obj\Debug\net8.0\C-.GeneratedMSBuildEditorConfig.editorconfig
+E:\Desenvolvimento\dotnet\C-\obj\Debug\net8.0\C-.AssemblyInfoInputs.cache
+E:\Desenvolvimento\dotnet\C-\obj\Debug\net8.0\C-.AssemblyInfo.cs
+E:\Desenvolvimento\dotnet\C-\obj\Debug\net8.0\C-.csproj.CoreCompileInputs.cache
+E:\Desenvolvimento\dotnet\C-\obj\Debug\net8.0\C-.sourcelink.json
+E:\Desenvolvimento\dotnet\C-\obj\Debug\net8.0\C-.dll
+E:\Desenvolvimento\dotnet\C-\obj\Debug\net8.0\refint\C-.dll
+E:\Desenvolvimento\dotnet\C-\obj\Debug\net8.0\C-.pdb
+E:\Desenvolvimento\dotnet\C-\obj\Debug\net8.0\C-.genruntimeconfig.cache
+E:\Desenvolvimento\dotnet\C-\obj\Debug\net8.0\ref\C-.dll
