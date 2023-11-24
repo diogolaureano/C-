@@ -2,9 +2,37 @@
 using C_.Models;
 
 
-//Declaração e formatação de variavel do tipo data
-DateTime dataAtual = DateTime.Now.AddDays(2);
-Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm:ss"));
+
+//Recebendo um valor de entrada via cmd
+// Console.WriteLine("Digite uma linha");
+// string letra = Console.ReadLine();
+
+
+//Estrutura condicional IF
+// int quantidadeEstoque = 3;
+// int quantidadeCompra = 4;
+// bool possivelVenda = quantidadeEstoque >= quantidadeCompra;
+
+// Console.WriteLine("Quantidade em estoque " + quantidadeEstoque);
+// Console.WriteLine("Quantidade de compra " + quantidadeCompra);
+// Console.WriteLine("É possivel realizar compra? " + possivelVenda);
+
+// if (possivelVenda)
+// {
+//     Console.WriteLine("Venda realizada");
+
+// }
+// else
+// {
+//     Console.WriteLine("Não tem estoque suficiente");
+
+// }
+
+
+
+// //Declaração e formatação de variavel do tipo data
+// DateTime dataAtual = DateTime.Now.AddDays(2);
+// Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm:ss"));
 
 
 
