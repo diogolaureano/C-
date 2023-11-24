@@ -2,18 +2,34 @@
 using C_.Models;
 
 
+
+
+
+//Cast - casting conversão de de dados
+int a =  Convert.ToInt32("5");
+int c = int.Parse("5");
+Console.WriteLine(a + " " + c);
+
+string s = "15-";
+int b = 0;
+//Tratamento de erro
+int.TryParse(s, out b);
+Console.WriteLine(b);
+
+
+
 //Declrando e instanciando a classe Calculadora
-Calculadora calc =  new Calculadora();
+// Calculadora calc =  new Calculadora();
 //chamando metodos do objeto
-calc.Somar(10,10);
-calc.Subtrair(10,2);
-calc.Dividir(10,5);
-calc.Multiplicar(2,20);
-calc.Potencia(2,2);
-calc.Seno(30);
-calc.Coseno(30);
-calc.Tangente(30);
-calc.RaizQuadrada(20);
+// calc.Somar(10,10);
+// calc.Subtrair(10,2);
+// calc.Dividir(10,5);
+// calc.Multiplicar(2,20);
+// calc.Potencia(2,2);
+// calc.Seno(30);
+// calc.Coseno(30);
+// calc.Tangente(30);
+// calc.RaizQuadrada(20);
 
 
 //Declrando e instanciando a classe Pessoa
