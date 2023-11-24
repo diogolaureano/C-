@@ -2,19 +2,22 @@
 using C_.Models;
 
 
+//Declaração e formatação de variavel do tipo data
+DateTime dataAtual = DateTime.Now.AddDays(2);
+Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm:ss"));
 
 
 
-//Cast - casting conversão de de dados
-int a =  Convert.ToInt32("5");
-int c = int.Parse("5");
-Console.WriteLine(a + " " + c);
+// //Cast - casting conversão de de dados
+// int a =  Convert.ToInt32("5");
+// int c = int.Parse("5");
+// Console.WriteLine(a + " " + c);
 
-string s = "15-";
-int b = 0;
-//Tratamento de erro
-int.TryParse(s, out b);
-Console.WriteLine(b);
+// string s = "15-";
+// int b = 0;
+// //Tratamento de erro
+// int.TryParse(s, out b);
+// Console.WriteLine(b);
 
 
 
