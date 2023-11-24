@@ -2,13 +2,26 @@
 using C_.Models;
 
 
-//Declrando e instanciando a classe pessoa
-Pessoa pessoa1 = new Pessoa();
+//Declrando e instanciando a classe Calculadora
+Calculadora calc =  new Calculadora();
+//chamando metodos do objeto
+calc.Somar(10,10);
+calc.Subtrair(10,2);
+calc.Dividir(10,5);
+calc.Multiplicar(2,20);
+calc.Potencia(2,2);
+calc.Seno(30);
+calc.Coseno(30);
+calc.Tangente(30);
+calc.RaizQuadrada(20);
 
-pessoa1.Nome = "Diogo";
-pessoa1.Idade = 33;
-pessoa1.Apresentar();
 
+//Declrando e instanciando a classe Pessoa
+// Pessoa pessoa1 = new Pessoa();
+
+// pessoa1.Nome = "Diogo";
+// pessoa1.Idade = 33;
+// pessoa1.Apresentar();
 
 
 //Declarações de variáveis e seus tipos.
@@ -23,6 +36,7 @@ pessoa1.Apresentar();
 // Console.WriteLine("Valor da variavel altua " + altura.ToString("0.00"));
 // Console.WriteLine("Valor da variavel preco " + preco);
 // Console.WriteLine("Valor da variavel condicao " + condicao);
+
 
 //Classe para mensagem
 //Console.WriteLine("Hello, World!");
