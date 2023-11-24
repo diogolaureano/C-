@@ -6,6 +6,8 @@ Programação CRM com C#
 
 Conhecendo sobre .NET e linguagem C#
 
+* Instalar o .NET
+
 * Editor de texto
     - VsCode
 

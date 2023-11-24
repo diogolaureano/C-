@@ -48,7 +48,7 @@ using C_.Models;
 // Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
 
 
-// //Redimencionando array
+// //Redimensionando array
 // //Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
 
 // Console.WriteLine("Percorrendo o array com o FOR");
