@@ -3,6 +3,17 @@ using C_.Models;
 
 
 
+//Usando Incremento e decremento
+// int incrementoNumero = 10;
+// incrementoNumero++;
+// Console.WriteLine(incrementoNumero);
+
+// int decrementoNumero = 10;
+// Console.WriteLine($"Decremento o numero: {decrementoNumero}");
+// decrementoNumero--;
+// Console.WriteLine($"Decremento: {decrementoNumero}");
+
+
 //Recebendo um valor de entrada via cmd
 // Console.WriteLine("Digite uma linha");
 // string letra = Console.ReadLine();
