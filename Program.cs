@@ -1,19 +1,25 @@
 ﻿//Namespace caminho para encontrar a classe
 using C_.Models;
 
-//Trabalhando com listas
-List<string> listaString = new List<string>();
-listaString.Add("SP");
-listaString.Add("RJ");
-listaString.Add("MG");
 
-Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
-listaString.Add("SC");
 
-Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
-listaString.Remove("MG");
 
-Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+
+// //Trabalhando com listas
+// List<string> listaString = new List<string>();
+// listaString.Add("SP");
+// listaString.Add("RJ");
+// listaString.Add("MG");
+
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+// listaString.Add("SC");
+
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+// listaString.Remove("MG");
+
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
 
 // Console.WriteLine("Percorrendo a lista com o FOR");
 // for (int contador = 0; contador < listaString.Count; contador++)
