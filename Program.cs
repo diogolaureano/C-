@@ -3,6 +3,48 @@ using C_.Models;
 
 
 
+
+// //Criando um menu interativo
+// string opcao;
+// bool exibirMenu = true;
+
+// while (exibirMenu)
+// {
+//     Console.Clear();
+//     Console.WriteLine("1- Cadastrar Cliente");
+//     Console.WriteLine("2- Buscar Cliente");
+//     Console.WriteLine("3- Apagar Cliente");
+//     Console.WriteLine("4- Encerrar");
+
+//     opcao = Console.ReadLine();
+
+
+//     switch (opcao)
+//     {
+//         case "1":
+//             Console.WriteLine("Cadastro do cliente");
+//             break;
+//         case "2":
+//             Console.WriteLine("Busca do cliente");
+//             break;
+//         case "3":
+//             Console.WriteLine("Apagar cliente");
+//             break;
+//         case "4":
+//             Console.WriteLine("Encerrar");
+//             exibirMenu = false;
+//             //Environment.Exit(0); outra forma de encerrar o programa
+//             break;
+//         default:
+//             Console.WriteLine("Opção inválida");
+//             break;
+//     }
+// }
+
+// Console.WriteLine("Programa encerrado");
+
+
+
 // //Utilizando Do While
 // int soma = 0, numero = 0;
 
