@@ -22,3 +22,6 @@ Conhecendo sobre .NET e linguagem C#
 
 * Extensão do arquivo codigo fonte (.cs)
 
+* Nas configurações 'launch.json' alterar a configuração
+    - "console": "integratedTerminal"
+
