@@ -1,10 +1,37 @@
 ﻿//Namespace caminho para encontrar a classe
 using C_.Models;
 
+//Trabalhando com Array
+int[] arrayInteiros = new int[4];
+
+arrayInteiros[0] = 72;
+arrayInteiros[1] = 64;
+arrayInteiros[2] = 50;
+arrayInteiros[2] = 1;
+
+int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
 
 
+//Redimencionando array
+//Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
 
-// //Criando um menu interativo
+Console.WriteLine("Percorrendo o array com o FOR");
+for (int contador = 0; contador < arrayInteiros.Length; contador++)
+{
+    Console.WriteLine($"Posicao nº {contador} - {arrayInteiros[contador]}");
+}
+
+int contadorForEach = 0;
+Console.WriteLine("Percorrendo o array com o FOR");
+foreach (int valor in arrayInteiros)
+{
+    Console.WriteLine($"Posicao nº {contadorForEach} - {valor}");
+    contadorForEach++;
+}
+
+
+//Criando um menu interativo
 // string opcao;
 // bool exibirMenu = true;
 
