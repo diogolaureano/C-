@@ -2,6 +2,15 @@
 using C_.Models;
 
 
+//Utilizando o laço de repetição FOR
+// int valor = 10;
+
+// for (int contador = 0; contador <= valor; contador++ )
+// {
+// Console.WriteLine($"{contador} X {valor} = {contador * valor} ");
+// }
+
+
 
 //Usando Incremento e decremento
 // int incrementoNumero = 10;
