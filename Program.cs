@@ -1,34 +1,63 @@
 ﻿//Namespace caminho para encontrar a classe
 using C_.Models;
 
+//Trabalhando com listas
+List<string> listaString = new List<string>();
+listaString.Add("SP");
+listaString.Add("RJ");
+listaString.Add("MG");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+listaString.Add("SC");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+listaString.Remove("MG");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+// Console.WriteLine("Percorrendo a lista com o FOR");
+// for (int contador = 0; contador < listaString.Count; contador++)
+// {
+//     Console.WriteLine($"Posicao nº {contador} - {listaString[contador]}");
+// }
+
+// Console.WriteLine("Percorrendo a lista com o FOREACH");
+// int contadorForEach = 0;
+// foreach (string item in listaString)
+// {
+//     Console.WriteLine($"Posicao nº {contadorForEach} - {item}");
+//     contadorForEach++;
+// }
+
+
 //Trabalhando com Array
-int[] arrayInteiros = new int[4];
+// int[] arrayInteiros = new int[4];
 
-arrayInteiros[0] = 72;
-arrayInteiros[1] = 64;
-arrayInteiros[2] = 50;
-arrayInteiros[2] = 1;
+// arrayInteiros[0] = 72;
+// arrayInteiros[1] = 64;
+// arrayInteiros[2] = 50;
+// arrayInteiros[2] = 1;
 
-int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
-Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+// int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+// Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
 
 
-//Redimencionando array
-//Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+// //Redimencionando array
+// //Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
 
-Console.WriteLine("Percorrendo o array com o FOR");
-for (int contador = 0; contador < arrayInteiros.Length; contador++)
-{
-    Console.WriteLine($"Posicao nº {contador} - {arrayInteiros[contador]}");
-}
+// Console.WriteLine("Percorrendo o array com o FOR");
+// for (int contador = 0; contador < arrayInteiros.Length; contador++)
+// {
+//     Console.WriteLine($"Posicao nº {contador} - {arrayInteiros[contador]}");
+// }
 
-int contadorForEach = 0;
-Console.WriteLine("Percorrendo o array com o FOR");
-foreach (int valor in arrayInteiros)
-{
-    Console.WriteLine($"Posicao nº {contadorForEach} - {valor}");
-    contadorForEach++;
-}
+// int contadorForEach = 0;
+// Console.WriteLine("Percorrendo o array com o FOR");
+// foreach (int valor in arrayInteiros)
+// {
+//     Console.WriteLine($"Posicao nº {contadorForEach} - {valor}");
+//     contadorForEach++;
+// }
 
 
 //Criando um menu interativo
