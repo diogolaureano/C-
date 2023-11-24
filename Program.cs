@@ -3,6 +3,35 @@ using C_.Models;
 
 
 
+// //Utilizando Do While
+// int soma = 0, numero = 0;
+
+// do{
+//     Console.WriteLine("Digite o numero zero (0) para parar:");
+//     numero = Convert.ToInt32(Console.ReadLine());
+
+//     soma += numero;
+
+// } while(numero != 0);
+
+// Console.WriteLine($"Total da soma dos numeros digitados é: {soma}");
+
+
+
+// //Utilizando o While
+// int valor = 10;
+// int contador = 1;
+
+// while (contador <= valor)
+// {
+//     Console.WriteLine($"{contador + 1}° Execução: {contador} x {valor} = {contador * valor}");
+//     contador++;
+
+//     if (contador == 6)
+//     {
+//         break;
+//     }
+// }
 
 
 
